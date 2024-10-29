@@ -335,7 +335,7 @@ html,body{
     background-color: transparent;
 }
 .section4{
-    height: 655.8px;
+    height: 350px;
     margin: 250px 120px 200px 120px;
 }
 .section4 .container1{
@@ -374,6 +374,17 @@ html,body{
     height: 70%;
     display: flex;
 }
+.section4 .container2 .d1{
+    height: 100%;
+    width: 50%;
+}
+.section4 .container2 .d1 .s1{
+    width: 100%;
+    border-bottom: 15px solid #ffbd39;
+    padding-top: 5px;
+    margin-bottom: 30px;
+    background-color: transparent;
+}
 .section4 .container2 .d1 .s1 h3{
     color: #ffffff;
     font-size: 20px;
@@ -386,26 +397,29 @@ html,body{
     position: absolute;
     right: 0;
 }
-.section4 .container2 .d1{
-    height: 100%;
-    width: 50%;
-}
 .section4 .container2 .d2{
     height: 100%;
     width: 50%;
     margin-left: 5px;
 }
-.section4 .container2 .d1 .s1{
-    height: 30%;
-    width: 100%;
-    margin-bottom: 10px;
-    background-color: aliceblue;
-}
 .section4 .container2 .d2 .s2{
-    height: 30%;
     width: 100%;
+    border-bottom: 15px solid #ffbd39;
+    padding-top: 5px;
+    margin-bottom: 30px;
+    background-color: transparent;
+}
+.section4 .container2 .d2 .s2 h3{
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 1.5;
     margin-bottom: 10px;
-    background-color: aliceblue;
+    font-weight: 500;
+    position: relative;
+}
+.section4 .container2 .d2 .s2 h3 span{
+    position: absolute;
+    right: 0;
 }
 .section5{
     height: 650px;
