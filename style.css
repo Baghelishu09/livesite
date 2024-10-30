@@ -119,6 +119,10 @@ html,body{
     display: flex;
     height: 800px;
 }
+.mobile-nav-bar{
+    visibility: hidden;
+}
+
 .section2{
     height: 637px;
     margin: 0px 0px 0px 120px;
@@ -525,4 +529,31 @@ p{
     margin-top: 40px;
     color: rgba(255,255,255,0.7);
     text-align: center;
+}
+
+/* Mobile version */
+
+@media screen and (max-width: 425px) {
+    .main{
+        width: 100%;
+        height: auto;
+    }
+    .nav-bar h4{
+        font-size: 20vw;
+        position: absolute;
+        top: 5vw;
+        left: 10vw;
+    }
+    .nav-bar a{
+        display: none;
+    }
+    .intro{
+        text-align: center;
+    }
+    .image{
+        display: none;
+    }
+    .section2 .container1{
+        display: none;
+    }
 }
