@@ -531,29 +531,14 @@ p{
     text-align: center;
 }
 
-/* Mobile version */
-
-@media screen and (max-width: 425px) {
-    .main{
+@media screen and(max-width:475px){
+    body,html{
         width: 100%;
-        height: auto;
-    }
-    .nav-bar h4{
-        font-size: 20vw;
-        position: absolute;
-        top: 5vw;
-        left: 10vw;
-    }
-    .nav-bar a{
-        display: none;
-    }
-    .intro{
-        text-align: center;
-    }
-    .image{
-        display: none;
-    }
-    .section2 .container1{
-        display: none;
+        height: 100%;
     }
 }
+
+
+
+
+
