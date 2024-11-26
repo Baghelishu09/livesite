@@ -36,6 +36,22 @@ document.getElementById("contact").addEventListener("click", function() {
         behavior: "smooth"
     })
 });
+document.getElementById("primarybtn").addEventListener("click", function() {
+    const primarybtn = document.getElementsByClassName("section5");
+    const position5 = primarybtn[0].offsetTop;
+    window.scrollTo({
+        top: position5,
+        behavior: "smooth"
+    })
+});
+document.getElementById("secondarybtn").addEventListener("click", function() {
+    const secondarybtn = document.getElementsByClassName("section3");
+    const position6 = secondarybtn[0].offsetTop;
+    window.scrollTo({
+        top: position6,
+        behavior: "smooth"
+    })
+});
 document.getElementById("submit").addEventListener("click", function(event) {
     event.preventDefault()
     var name_val=document.getElementById("uname").value
