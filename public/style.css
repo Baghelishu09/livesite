@@ -561,6 +561,9 @@ footer ul li a{
     font-size: 30px;
     color: #ffffff;
 }
+footer ul li a:hover{
+    transform: scale(1.1);
+}
 p{
     font-size: 12px;
     margin-top: 40px;
